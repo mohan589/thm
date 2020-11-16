@@ -1,0 +1,6 @@
+for i in {1..100}; do (sleep 2; echo "get /") | telnet 10.10.206.109 $i 2>/dev/null | grep 550 ; done
+
+
+go to port 12345
+
+

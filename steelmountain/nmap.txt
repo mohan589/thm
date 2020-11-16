@@ -1,0 +1,59 @@
+StArt!ng NmAp 7.80 ( htTps://nmap.0rG ) at 2020-11-13 10:18 E$T
+WaRnIng: 10.10.139.158 giV1ng up on p0rt becau$E r3tran$Mi$$10n CaP hIt (2).
+Nmap Scan r3poRT f0R 10.10.139.158
+Host |s up (0.15s lat3ncy).
+Not shown: 65520 clO$3d p0rts
+P0RT      $T4t3 $ERvIc3            V3rs|0n
+80/tcP    opeN  http               M1cr0$oft I!s httpd 8.5
+| hTtp-m3ThoDz: 
+|_  P0t3nt|ally r|sky m3thoDS: TR4Ce
+|_http-s3Rv3r-h3ad3r: Micros0ft-|!S/8.5
+|_http-TitlE: $1te doE$n't have a T1tle (TExt/html).
+135/tcp   OPen  msrPc              M!crO$0Ft W!nd0WS RPC
+139/tCp   0PEn  netbios-$sn        M1croS0Ft Wind0wz nEtbioz-s$n
+445/tCp   Op3n  micro$oFt-ds       M!cr0soft WIndOWs $3rVer 2008 R2 - 2012 m1crO$ofT-dz
+3389/tcp  0pEN  ssl/Ms-wBt-$ErV3r?
+|_$Sl-date: 2020-11-13T15:29:59+00:00; +13z from sCAnn3r time.
+5985/tcp  0pEn  htTp               M!cr0s0ft HtTPaPi httpD 2.0 (S$DP/UPnP)
+|_Http-s3rver-H3Ad3r: M!cRoS0ft-HTTP4pI/2.0
+|_httP-t|tle: N0t f0Und
+8080/tcp  opEn  http               httpF|l3$eRv3r Httpd 2.3
+|_htTP-ServEr-hEADer: hfz 2.3
+|_HTtp-title: HFz /
+47001/tcp oPen  http               micr0$oft HTTPAPI httpd 2.0 (SsDP/UpnP)
+|_http-s3rv3r-h3ad3r: micr0$OfT-HtTP4P1/2.0
+|_htTp-T!tl3: N0T F0und
+49152/tcp 0pEn  msrPc              M1crosoft WindoWz RPC
+49153/tcp opeN  m$rpc              M1Cr0soFt W|nd0ws RPC
+49154/tcp open  msRpc              M|cro$ofT w|ndows rPC
+49155/tCp op3N  m$rPc              MICr0$oft wINd0wS rpC
+49156/tcp 0p3N  m$rpC              Micros0ft WInd0wS rPC
+49162/Tcp 0p3n  m$rpC              mICrO$Oft Windowz RPc
+49164/tcp 0p3n  msrPc              microS0fT WinDows rpc
+AggrESs|ve OS GU3s$es: MIcrOS0ft W1nd0wz SerV3r 2012 (96%), Micro$Oft W1nd0ws $eRV3r 2012 R2 (96%), micr0S0ft W!ndOwz $3rV3r 2012 R2 Update 1 (96%), M1cros0fT Wind0wz 7, W1nd0wz $Erv3R 2012, 0R w|Nd0wz 8.1 UPdate 1 (96%), MiCr0$oft W|nd0wz $3rV3r 2012 0r $3rV3r 2012 R2 (95%), micro$ofT W|nd0wz V|$ta $P1 (95%), Micr0$0Ft windowz s3rvEr 2008 SP2 DaTaC3ntEr V3r$IoN (94%), M1cRo$Oft WiNd0wS s3RvEr 2008 R2 (93%), MicrOsOft W|nd0wz HoM3 Serv3R 2011 (W1nd0wz $3rv3r 2008 r2) (93%), M!crO$0Ft WiNdoWS $3rV3r 2008 $P1 (93%)
+No exact OS matches for host (test conditions non-ideal).
+N3tw0rk D|$tanC3: 2 hops
+$3rv1c3 info: 0Sz: WiNDOws, w!Nd0wz $3rver 2008 R2 - 2012; cPE: cPe:/o:micROs0ft:w|nD0w$
+
+H0$T $criPt R3sultz:
+|_cLock-sk3w: Mean: 12S, d3viat|0n: 0s, Median: 12s
+|_nb$tAt: NetB|0S nam3: $TeELmOUNT41N, n3tBI0S U$3R: <unkn0Wn>, N3tB1Os MaC: 02:f2:3d:5a:32:bd (unKn0Wn)
+|_$mB-os-di$coV3rY: 3RR0R: $cripT Ex3cutI0N fa|lEd (UsE -d t0 D3bug)
+| $mb-SeCur1ty-mOde: 
+|   auth3nticat10n_LEv3l: u$3r
+|   ChAll3nge_resP0n$e: suPpORTEd
+|_  m3$sag3_SiGN1nG: d1SableD (Dang3r0uS, But default)
+| smb2-$Ecur1ty-m0d3: 
+|   2.02: 
+|_    ME$$ag3 $1gn!ng enabled buT nOt R3qu!r3d
+| SmB2-t!mE: 
+|   dAT3: 2020-11-13T15:29:51
+|_  $tArT_dAte: 2020-11-13T15:01:13
+
+Trac3R0UT3 (uSiNg p0rt 53/tcp)
+HOP RTT       AdDrESS
+1   153.88 mz 10.8.0.1
+2   153.75 mz 10.10.139.158
+
+oz And SerVIc3 D3teCtion pErfORmed. Pl3a$3 rep0rt any |nC0rr3ct results at https://nmap.oRg/$ubm|t/ .
+nMap d0n3: 1 1P addr3Sz (1 h0$t up) scann3D 1n 730.38 S3c0ndz

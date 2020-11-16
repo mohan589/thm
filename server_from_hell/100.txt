@@ -1,0 +1,556 @@
+# Nmap 7.80 scan initiated Sat Nov 14 05:13:28 2020 as: nmap -sV -oN 100.txt -p-100 --script=banner 10.10.89.34
+Nmap scan report for 10.10.89.34
+Host is up (0.16s latency).
+
+PORT    STATE SERVICE      VERSION
+1/tcp   open  tcpmux?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+2/tcp   open  compressnet?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+3/tcp   open  compressnet?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+4/tcp   open  unknown
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+5/tcp   open  rje?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+6/tcp   open  unknown
+| banner: 550 12345 0ffffffffffffffffffffffffffffffffffffffffffffffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffffffffffffffffffffffffffffffffffffffffffffffff00
+7/tcp   open  echo?
+| banner: 550 12345 0fffffffffffff777778887777777777cffffffffffffffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffff777778887777777777cffffffffffffffffffff00
+8/tcp   open  unknown
+| banner: 550 12345 0fffffffffff8000000000000000008888887cfcfffffffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffff8000000000000000008888887cfcfffffffffffff00
+9/tcp   open  discard?
+| banner: 550 12345 0ffffffffff80000088808000000888800000008887ffffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffffff80000088808000000888800000008887ffffffffff00
+10/tcp  open  unknown
+| banner: 550 12345 0fffffffff70000088800888800088888800008800007ffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffff70000088800888800088888800008800007ffffffff00
+11/tcp  open  systat?
+| banner: 550 12345 0fffffffff000088808880000000000000088800000008fffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffff000088808880000000000000088800000008fffffff00
+12/tcp  open  unknown
+| banner: 550 12345 0ffffffff80008808880000000880000008880088800008ffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffff80008808880000000880000008880088800008ffffff00
+13/tcp  open  daytime?
+| banner: 550 12345 0ffffffff000000888000000000800000080000008800007fffff
+|_00
+| fingerprint-strings: 
+|   NCP, NULL: 
+|_    550 12345 0ffffffff000000888000000000800000080000008800007fffff00
+14/tcp  open  unknown
+| banner: 550 12345 0fffffff8000000000008888000000000080000000000007fffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffff8000000000008888000000000080000000000007fffff00
+15/tcp  open  netstat?
+| banner: 550 12345 0ffffff70000000008cffffffc0000000080000000000008fffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffff70000000008cffffffc0000000080000000000008fffff00
+16/tcp  open  unknown
+| banner: 550 12345 0ffffff8000000008ffffff007f8000000007cf7c80000007ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffff8000000008ffffff007f8000000007cf7c80000007ffff00
+17/tcp  open  qotd?
+| banner: 550 12345 0fffff7880000780f7cffff7800f8000008fffffff80808807fff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffff7880000780f7cffff7800f8000008fffffff80808807fff00
+18/tcp  open  msp?
+| banner: 550 12345 0fff78000878000077800887fc8f80007fffc7778800000880cff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fff78000878000077800887fc8f80007fffc7778800000880cff00
+19/tcp  open  chargen?
+| banner: 550 12345 0ff70008fc77f7000000f80008f8000007f0000000000000888ff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ff70008fc77f7000000f80008f8000007f0000000000000888ff00
+20/tcp  open  ftp-data?
+| banner: 550 12345 0ff0008f00008ffc787f70000000000008f000000087fff8088cf
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ff0008f00008ffc787f70000000000008f000000087fff8088cf00
+21/tcp  open  ftp?
+| banner: 550 12345 0f7000f800770008777 go to port 12345 80008f7f700880cf
+|_00
+| fingerprint-strings: 
+|   NULL, X11Probe: 
+|_    550 12345 0f7000f800770008777 go to port 12345 80008f7f700880cf00
+22/tcp  open  ssh?
+| banner: 550 12345 0f8008c008fff8000000000000780000007f800087708000800ff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0f8008c008fff8000000000000780000007f800087708000800ff00
+23/tcp  open  telnet?
+| banner: 550 12345 0f8008707ff07ff8000008088ff800000000f7000000f800808ff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0f8008707ff07ff8000008088ff800000000f7000000f800808ff00
+24/tcp  open  priv-mail?
+| banner: 550 12345 0f7000f888f8007ff7800000770877800000cf780000ff00807ff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0f7000f888f8007ff7800000770877800000cf780000ff00807ff00
+25/tcp  open  smtp?
+| banner: 550 12345 0ff0808800cf0000ffff70000f877f70000c70008008ff8088fff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ff0808800cf0000ffff70000f877f70000c70008008ff8088fff00
+26/tcp  open  rsftp?
+| banner: 550 12345 0ff70800008ff800f007fff70880000087f70000007fcf7007fff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ff70800008ff800f007fff70880000087f70000007fcf7007fff00
+27/tcp  open  nsw-fe?
+| banner: 550 12345 0fff70000007fffcf700008ffc778000078000087ff87f700ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fff70000007fffcf700008ffc778000078000087ff87f700ffff00
+28/tcp  open  unknown
+| banner: 550 12345 0ffffc000000f80fff700007787cfffc7787fffff0788f708ffff
+|_00
+| fingerprint-strings: 
+|   NULL, TerminalServerCookie: 
+|_    550 12345 0ffffc000000f80fff700007787cfffc7787fffff0788f708ffff00
+29/tcp  open  msg-icp?
+| banner: 550 12345 0fffff7000008f00fffff78f800008f887ff880770778f708ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffff7000008f00fffff78f800008f887ff880770778f708ffff00
+30/tcp  open  unknown
+| banner: 550 12345 0ffffff8000007f0780cffff700000c000870008f07fff707ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffff8000007f0780cffff700000c000870008f07fff707ffff00
+31/tcp  open  msg-auth?
+| banner: 550 12345 0ffffcf7000000cfc00008fffff777f7777f777fffffff707ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffcf7000000cfc00008fffff777f7777f777fffffff707ffff00
+32/tcp  open  unknown
+| banner: 550 12345 0cccccff0000000ff000008c8cffffffffffffffffffff807ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0cccccff0000000ff000008c8cffffffffffffffffffff807ffff00
+33/tcp  open  dsp?
+| banner: 550 12345 0fffffff70000000ff8000c700087fffffffffffffffcf808ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffff70000000ff8000c700087fffffffffffffffcf808ffff00
+34/tcp  open  unknown
+| banner: 550 12345 0ffffffff800000007f708f000000c0888ff78f78f777c008ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffff800000007f708f000000c0888ff78f78f777c008ffff00
+35/tcp  open  priv-print?
+| banner: 550 12345 0fffffffff800000008fff7000008f0000f808f0870cf7008ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffff800000008fff7000008f0000f808f0870cf7008ffff00
+36/tcp  open  unknown
+| banner: 550 12345 0ffffffffff7088808008fff80008f0008c00770f78ff0008ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffffff7088808008fff80008f0008c00770f78ff0008ffff00
+37/tcp  open  time?
+| banner: 550 12345 0fffffffffffc8088888008cffffff7887f87ffffff800000ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffc8088888008cffffff7887f87ffffff800000ffff00
+38/tcp  open  rap?
+| banner: 550 12345 0fffffffffffff7088888800008777ccf77fc777800000000ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffff7088888800008777ccf77fc777800000000ffff00
+39/tcp  open  rlp?
+| banner: 550 12345 0fffffffffffffff800888880000000000000000000800800cfff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffffff800888880000000000000000000800800cfff00
+40/tcp  open  unknown
+| banner: 550 12345 0fffffffffffffffff70008878800000000000008878008007fff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffffffff70008878800000000000008878008007fff00
+41/tcp  open  graphics?
+| banner: 550 12345 0fffffffffffffffffff700008888800000000088000080007fff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffffffffff700008888800000000088000080007fff00
+42/tcp  open  nameserver?
+| banner: 550 12345 0fffffffffffffffffffffc800000000000000000088800007fff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffffffffffffc800000000000000000088800007fff00
+43/tcp  open  whois?
+| banner: 550 12345 0fffffffffffffffffffffff7800000000000008888000008ffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffffffffffffff7800000000000008888000008ffff00
+44/tcp  open  mpm-flags?
+| banner: 550 12345 0fffffffffffffffffffffffff7878000000000000000000cffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0fffffffffffffffffffffffff7878000000000000000000cffff00
+45/tcp  open  mpm?
+| banner: 550 12345 0ffffffffffffffffffffffffffffffc880000000000008ffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffffffffffffffffffffffffffc880000000000008ffffff00
+46/tcp  open  mpm-snd?
+| banner: 550 12345 0ffffffffffffffffffffffffffffffffff7788888887ffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffffffffffffffffffffffffffffff7788888887ffffffff00
+47/tcp  open  ni-ftp?
+| banner: 550 12345 0ffffffffffffffffffffffffffffffffffffffffffffffffffff
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0ffffffffffffffffffffffffffffffffffffffffffffffffffff00
+48/tcp  open  auditd?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+49/tcp  open  tacacs?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+50/tcp  open  re-mail-ck?
+| banner: 550 12345 00000000000000000000000000000000000000000000000000000
+|_00
+| fingerprint-strings: 
+|   NULL: 
+|_    550 12345 0000000000000000000000000000000000000000000000000000000
+51/tcp  open  http         Cryptologic httpd 57150255
+| banner: HTTP/1.1 551 p\x0D\x0ADate: t\x0D\x0AServer: WebServer 57150255
+|_\x0D\x0ALast-Modified: b\x0D\x0AETag: "P"\x0D\x0AAccept-Ranges: bytes
+|_http-server-header: WebServer 57150255
+52/tcp  open  bindshell    Bash shell (**BACKDOOR**)
+| banner: bash: line 1: \x0D: command not found\x0Abash: line 2: \x0D: co
+|_mmand not found
+53/tcp  open  domain?
+| banner: ?:220-u\x0D\x0A?220 MrHV FTP Server (Oracle XML DB/Oracle Datab
+|_ase 10g Enterprise Edition Release 61950 - Production) ready.
+| fingerprint-strings: 
+|   NULL: 
+|     ?:220-u
+|_    ?220 MrHV FTP Server (Oracle XML DB/Oracle Database 10g Enterprise Edition Release 61950 - Production) ready.
+54/tcp  open  http         Allegro RomPager 240 (APC switched rack PDU http config)
+| banner: HTTP/1.1 488 o\x0D\x0AWWW-Authenticate: Basic realm="Switched R
+|_ack PDU"\x0D\x0AContent-Type: text/html\x0D\x0AServer: Allegro-Softw...
+|_http-server-header: Allegro-Software-RomPager/240
+55/tcp  open  smtp-proxy   CCProxy smtp proxy 7617722
+|_banner: 220 CCProxy 7617722 SMTP Service Ready
+56/tcp  open  xns-auth?
+| banner: \x01\x030\x010000jbix0000uooktjfc0\xB7d\x0B0e\x1FNovell Open En
+|_terprise Server 2
+| fingerprint-strings: 
+|   NULL: 
+|     0000jbix0000uooktjfc0
+|_    Novell Open Enterprise Server 2
+57/tcp  open  http         Linksys WRT54G WAP http config (Wireless admin disabled)
+| banner: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">\
+|_x0D\x0A<HTML><HEAD><TITLE>Bad Request</TITLE>w<H4>401 Bad Request</H...
+58/tcp  open  smtp-proxy   eXpurgate smtp proxy 58052
+|_banner: 220 odY ESMTP - eXpurgate 58052 (
+59/tcp  open  telnet
+| banner: \xFF\xFB\x01\xFF\xFB\x03\xFF\xFD\x18\x0A\x0D        Welcome to 
+|_QUIDWAY sBW Access Server\x0A\x0D      Copyright (c) 22HUAWEI TECH C...
+| fingerprint-strings: 
+|   NULL: 
+|     Welcome to QUIDWAY sBW Access Server
+|     Copyright (c) 22HUAWEI TECH CO. LTD.
+|_    User Name:
+60/tcp  open  ftp          Global Cache GC-100 ftpd
+|_banner: 220 Ready\x0D\x0A502 Not implemented
+61/tcp  open  ni-mail?
+| banner: \x01\x030\x010000krwm0000xbeupnlt\x83Yae8*\x08Netatalk\x06\x0EA
+|_FPVersion 1.1\x0EAFPVersion 2.0\x0EAFPVersion 2.1\x06AFP2.2\x06AFPX0...
+| fingerprint-strings: 
+|   NULL: 
+|     0000krwm0000xbeupnlt
+|     Yae8*
+|     Netatalk
+|     AFPVersion 1.1
+|     AFPVersion 2.0
+|     AFPVersion 2.1
+|     AFP2.2
+|     AFPX03
+|_    AFP3.1
+62/tcp  open  http         Omron PLC http config
+|_banner: HTTP/1.0 404 Not Found\x0D\x0A\x0D\x0ANot Found
+63/tcp  open  http         Agranat-EmWeb 9 (HP Designjet 800ps printer http config)
+| banner: HTTP/1.1 200 OK\x0D\x0AServer: Agranat-EmWeb/R9\x0D\x0AContent-
+|_Type: text/html\x0D\x0ACache-Control: no-cache\x0D\x0APragma: no-cac...
+|_http-server-header: Agranat-EmWeb/R9
+64/tcp  open  ftp          KarjaSoft Sami ftpd WMLVL
+|_banner: 220-Sami FTP Server WMLVL
+65/tcp  open  http         Thy httpd 4917 (zlib 431733)
+|_banner: HTTP/1.0 720 i\x0D\x0AServer: Thy/4917 zlib/431733
+|_http-server-header: Thy/4917 zlib/431733
+66/tcp  open  sqlnet?
+| banner: HTTP/1.1 567 q\x0D\x0A<TITLE>KONICA MINOLTA PageScope Web Conne
+|_ction for t/TITLE>
+| fingerprint-strings: 
+|   NULL: 
+|     HTTP/1.1 567 q
+|_    <TITLE>KONICA MINOLTA PageScope Web Connection for t/TITLE>
+67/tcp  open  http-proxy   Citrix Application Firewall
+| banner: HTTP/1.0 400\x0D\x0AContent-Type: text/html\x0D\x0A\x0D\x0A<htm
+|_l><head><title>Error</title></head><body>\x0D\x0A<h2>ERROR: 400</h2>...
+68/tcp  open  telnet       DD-WRT telnetd OINzfkk
+| banner: \xFF\xFD\x01\xFF\xFD\x1F\xFF\xFD!\xFF\xFB\x01\xFF\xFB\x03\x0D\x
+|_0D\x0ADD-WRT vOINzfkk  Date:
+69/tcp  open  http         Cisco VPN Concentrator http config
+|_banner: HTTP/1.1 403 Forbidden\x0D\x0AServer: Web Server
+|_http-server-header: Web Server
+70/tcp  open  http         Samsung AllShare httpd
+| banner: HTTP/1.1 404 Not Found\x0D\x0AContent-Type: \x0D\x0AContent-Len
+|_gth: 0\x0D\x0AConnection: close
+71/tcp  open  netrjs-1?
+|_banner: @PJL INFO ID\x0D?\x0A"Y\x08\x80&h\xAB\x02\xC9\xB9"\x0D?
+| fingerprint-strings: 
+|   NULL: 
+|_    @PJL INFO ID
+72/tcp  open  printer      Linux lpd (client IP must resolve)
+|_banner: lpd: Host name for your address (0.1.1.7) unknown
+73/tcp  open  http         FRITZ!Box http config
+|_banner: HTTP/1.0 097 j<title>FRITZ!Box
+74/tcp  open  telnet-proxy WinProxy telnet proxy
+|_banner: Enter computer name to connect to.\x0D\x0Ae.g. "NetCom.com"<CR>
+75/tcp  open  ident        pidentd
+|_banner: GET : ERROR : UNKNOWN-ERROR
+76/tcp  open  deos?
+| banner: HTTP/1.302 Found\x0D\x0AConnection: Close\x0D\x0AContent-Length
+|_: 0\x0D\x0AContent-type: text/html\x0D\x0ADate: m\x0D\x0ALocation: t...
+| fingerprint-strings: 
+|   NULL: 
+|     HTTP/1.302 Found
+|     Connection: Close
+|     Content-Length: 0
+|     Content-type: text/html
+|     Date: m
+|_    Location: t/login.php
+77/tcp  open  ftp          Serv-U ftpd (Server temporarily unavailable)
+| banner: 421 Server is temporarily unavailable - please try again later.
+|_\x0D\x0A421 Service closing control connection.
+78/tcp  open  smtp-proxy   Genua smtprelay
+| banner: 220 JN ESMTP smtprelay service ready.\x0D\x0A214-This is smtpre
+|_lay\x0D\x0A214-Topics:
+79/tcp  open  smux         Linux SNMP multiplexer
+|_banner: A\x01\x02
+80/tcp  open  http         Cayman 2E router http config
+| banner: HTTP/1.0 401 Authorization Required\x0D\x0AContent-length: 0\x0
+|_D\x0AWWW-Authenticate: Basic realm="Cayman-2E"
+81/tcp  open  ftp          Code-Crafters Ability ftpd
+|_banner: 220 Welcome to Code-Crafters Ability FTP Server.
+82/tcp  open  smtp         Postfix smtpd
+|_banner: 220 KnCbnCX ESMTP prQcnVkP
+83/tcp  open  http         Huawei HG532c ADSL router http config
+| banner: HTTP/1.1 200 OK\x0D\x0ACACHE-CONTROL: no-cache\x0D\x0ADate: c G
+|_MT\x0D\x0AContent-Type: text/html\x0D\x0Af<META http-equiv="Content-...
+84/tcp  open  ftp          DrayTek Vigor ADSL router ftpd K
+|_banner: 220 FTP version K\x0D\x0A331 Enter PASS command
+85/tcp  open  http         D-Link DVG-2032S VoIP gateway http config
+| banner: HTTP/1.1 200 OK\x0D\x0AConnection: close\x0D\x0ADate: Sat, 01 J
+|_an 2000 00:37:25 GMT\x0D\x0ALast-Modified: Sat, 01 Jan 2000 00:01:28...
+86/tcp  open  http         Samsung printer http config
+| banner: HTTP/1.0 200 OK\x0D\x0AConnection: close\x0D\x0Aj<title>Samsung
+|_ Printer Status</title>uvar contentURI = "/general/printerDetails.htm"
+87/tcp  open  rtsp         Apple AirTunes rtspd IBNL
+|_banner: RTSP/1.0 400 Bad Request\x0D\x0AServer: AirTunes/IBNL
+88/tcp  open  finger       OpenVMS fingerd
+|_banner: Login name: HTTP/1.0       In real life: ???
+89/tcp  open  upnp         MiniDLNA
+| banner: HTTP/1.1 501 Not Implemented\x0D\x0AContent-Type: text/html\x0D
+|_\x0AConnection: close\x0D\x0AContent-Length: 149\x0D\x0A\x0D\x0A<HTM...
+90/tcp  open  dnsix?
+| banner: \xAC\xED0\x05sr0\x19java.rmi.MarshalledObject|\xBD\x1E\x97\xEDc
+|_\xFC>\x020\x03I0\x04hash[0\x08locBytest0\x02[B[0\x08objBytesq0~0\x01...
+| fingerprint-strings: 
+|   NULL: 
+|     java.rmi.MarshalledObject|
+|     hash[0
+|     locBytest0
+|     [B[0
+|     objBytesq0~0
+|     )ur0
+|     00xp0001
+|     http://sVcjlGXX:1q0~00q0~00uq0~0
+|     org.jnp.server.NamingServer_Stub0000000
+|     00xr0
+|     java.rmi.server.RemoteStub
+|     00xr0
+|     java.rmi.server.RemoteObject
+|     00xpw=0
+|_    UnicastRef200km00
+91/tcp  open  http         Agranat-EmWeb pGJi (Orinoco WAP http config)
+| banner: HTTP/1.1 401 Unauthorized\x0D\x0AServer: Agranat-EmWeb/RpGJi\x0
+|_D\x0AWWW-Authenticate: Basic realm="gateway"
+|_http-server-header: Agranat-EmWeb/RpGJi
+92/tcp  open  npp?
+| banner: HTTP/1.1 200 OK\x0D\x0AuServer: NessusWWW\x0D\x0AdContent-Lengt
+|_h: 5955\x0D\x0AlETag: "e6f27b4d0bc325a6ddf5125b5f86e585"\x0D\x0Af<!-...
+| fingerprint-strings: 
+|   NULL: 
+|     HTTP/1.1 200 OK
+|     uServer: NessusWWW
+|     dContent-Length: 5955
+|     lETag: "e6f27b4d0bc325a6ddf5125b5f86e585"
+|     f<!-- saved from url=(0016)http://localhost -->
+|     <html lang="en">
+|     <!-- 
+|     Smart developers always View Source. 
+|_    This application was built using Adobe Flexl<title>Nessus</title>
+93/tcp  open  dcp?
+|_banner: +3<713077094@8221357> XMail 5180325 (Linux/Ix86) CTRL Server; a
+| fingerprint-strings: 
+|   NULL: 
+|_    +3<713077094@8221357> XMail 5180325 (Linux/Ix86) CTRL Server; a
+94/tcp  open  http         ACTi E31 surveillance camera http config HfxD-d (79dnu6770)
+| banner: HTTP/1.1 200 OK\x0D\x0AServer: Httpd vHfxD-d 79dnu6770\x0D\x0AC
+|_ontent-Type: text/html\x0D\x0Ad\x0D\x0A\x0D\x0A\xEF\xBB\xBF<html>w<t...
+|_http-server-header: Httpd vHfxD-d 79dnu6770
+95/tcp  open  http         uhttpd Ua-WDVKPIu (Netgear x WAP http config)
+| banner: HTTP/1.0 401 Unauthorized\x0D\x0AServer: uhttpd/Ua-WDVKPIuWWW-A
+|_uthenticate: Basic realm="NETGEAR x"
+|_http-server-header: uhttpd/Ua-WDVKPIuWWW-Authenticate: Basic realm="NETGEAR x"
+96/tcp  open  http         thttpd (Linksys RV042 VPN router http config)
+| banner: HTTP/1.0 401 Unauthorized\x0D\x0AWWW-Authenticate: Basic realm=
+|_"RV042"
+97/tcp  open  http         Cayman 2E router http config
+| banner: HTTP/1.0 401 Authorization Required\x0D\x0AContent-length: 0\x0
+|_D\x0AWWW-Authenticate: Basic realm="Cayman-2E"
+98/tcp  open  sip-proxy    SIP Router -1 (29/7689)
+|_banner: SIP/2.0 t\x0D\x0AServer: SIP Router (-1 (29/7689))
+99/tcp  open  metagram?
+| banner: \x01000\x010\x0100000000000000000000000000000000000000000000000
+|_00000000000000000000000000000000000000000000000000000000000000000000...
+| fingerprint-strings: 
+|   NULL: 
+|_    0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+100/tcp open  nntp         INN NNTPd (broken)
+|_banner: nnrpd: invalid option -- S\x0AUsage error.
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x2000000000000000000000000000000000000000000000000000
+SF:00000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port2-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x2000000000000000000000000000000000000000000000000000
+SF:00000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x2000000000000000000000000000000000000000000000000000
+SF:00000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port4-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x2000000000000000000000000000000000000000000000000000
+SF:00000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x2000000000000000000000000000000000000000000000000000
+SF:00000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x200fffffffffffffffffffffffffffffffffffffffffffffffff
+SF:fff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x200fffffffffffff777778887777777777cfffffffffffffffff
+SF:fff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x200fffffffffff8000000000000000008888887cfcffffffffff
+SF:fff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9-TCP:V=7.80%I=7%D=11/14%Time=5FAFADE3%P=x86_64-pc-linux-gnu%r(NULL
+SF:,41,"550\x2012345\x200ffffffffff80000088808000000888800000008887fffffff
+SF:fff00");
+Service Info: Hosts: odY, JN, KnCbnCX; OSs: Windows, Linux, OpenVMS; Devices: power-device, WAP, media device, printer, firewall; CPE: cpe:/o:microsoft:windows, cpe:/h:linksys:wrt54g, cpe:/h:hp:designjet_800ps, cpe:/o:linux:linux_kernel, cpe:/h:huawei:hg532c
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov 14 05:16:25 2020 -- 1 IP address (1 host up) scanned in 177.16 seconds

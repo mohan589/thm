@@ -1,0 +1,44 @@
+# Nmap 7.80 scan initiated Mon Nov 16 00:05:24 2020 as: nmap -sS -sC -A -p- -oN nmaper.txt -T5 10.10.152.59
+Warning: 10.10.152.59 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.10.152.59
+Host is up (0.19s latency).
+Not shown: 65492 closed ports, 40 filtered ports
+PORT    STATE SERVICE     VERSION
+80/tcp  open  http        Apache httpd 2.4.29
+|_http-title: 401 Unauthorized
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: YEAROFTHEFOX)
+445/tcp open  netbios-ssn Samba smbd 4.7.6-Ubuntu (workgroup: YEAROFTHEFOX)
+Aggressive OS guesses: Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (94%), ASUS RT-N56U WAP (Linux 3.4) (93%), Linux 3.16 (93%), Linux 2.6.32 (92%), Linux 2.6.39 - 3.2 (92%), Linux 3.1 - 3.2 (92%), Linux 3.11 (92%), Linux 3.2 - 4.9 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Hosts: year-of-the-fox.lan, YEAR-OF-THE-FOX
+
+Host script results:
+|_clock-skew: mean: 13s, deviation: 0s, median: 13s
+|_nbstat: NetBIOS name: YEAR-OF-THE-FOX, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
+|   Computer name: year-of-the-fox
+|   NetBIOS computer name: YEAR-OF-THE-FOX\x00
+|   Domain name: lan
+|   FQDN: year-of-the-fox.lan
+|_  System time: 2020-11-16T05:20:23+00:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-11-16T05:20:23
+|_  start_date: N/A
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   188.23 ms 10.8.0.1
+2   188.09 ms 10.10.152.59
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov 16 00:20:24 2020 -- 1 IP address (1 host up) scanned in 899.86 seconds

@@ -1,0 +1,10 @@
+put the file in files directory /var/www/html/files/ftp/rev.php
+
+get the reverse shell, read recipe.txt
+
+
+suspicious file incidents/suspicious.pcanp
+
+then you would find the password for lennie c4ntg3t3n0ughsp1c3
+
+
